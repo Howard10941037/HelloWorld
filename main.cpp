@@ -142,7 +142,7 @@ int main()
     backtrack(nums,v);
     return 0;*/
 
-    int input_m = 0, price = 2000;
+    volatile int input_m = 0, price = 2000;
     Cmain::STATE state = Cm.bitrev;
     // Cmain::STATE state;
     // cin >> state;
